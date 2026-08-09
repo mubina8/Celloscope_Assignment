@@ -1,0 +1,14 @@
+{
+  "lines": [
+    {"text": "Patient Name: Jane Doe", "confidence": 0.95},
+    {"text": "Age: 34 years", "confidence": 0.93},
+    {"text": "Sex: Female", "confidence": 0.96},
+    {"text": "Report Date: 12/01/2024", "confidence": 0.9},
+    {"text": "Lab Name: City Diagnostics", "confidence": 0.92},
+    {"text": "Reference No: RN-88213", "confidence": 0.91},
+    {"text": "Hemoglobin 12.5 g/dL 12.0-15.5 NORMAL", "confidence": 0.88},
+    {"text": "WBC Count 11,500 /uL 4000-11000 H", "confidence": 0.85},
+    {"text": "Vitamin D <0.5 ng/mL 30-100 L", "confidence": 0.8},
+    {"text": "Reference Range Marker 0.8 - 1.2 mg/dL 0.7-1.3 NORMAL", "confidence": 0.7}
+  ]
+}

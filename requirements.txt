@@ -1,0 +1,11 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+pydantic-settings==2.5.2
+python-multipart==0.0.9
+
+# Real adapters (only needed if provider != mock; kept in the same file
+# for simplicity per assignment scope -- see DECISIONS.md)
+openai==1.51.0
+pytesseract==0.3.13
+Pillow==10.4.0
