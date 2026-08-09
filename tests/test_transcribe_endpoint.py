@@ -10,6 +10,13 @@ from main import app  # noqa: E402
 client = TestClient(app)
 
 
+def test_root_route_returns_landing_page():
+    response = client.get("/")
+    assert response.status_code == 200
+    text = response.text.lower()
+    assert "celloscope" in text or "api" in text
+
+
 def test_transcribe_returns_expected_shape():
     response = client.post(
         "/api/v1/transcribe",
