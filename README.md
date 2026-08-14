@@ -1,4 +1,4 @@
-# Celloscope Speech & Document Extraction
+# Speech & Document Extraction
 
 ## Running it
 
